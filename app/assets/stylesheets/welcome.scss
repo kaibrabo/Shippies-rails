@@ -14,3 +14,24 @@ h1 {
     text-align: center;
     border-radius: 5px;
 }
+
+.features {
+    color: #fff;
+}
+.news {
+    background-image: image-url("news.png");
+    height: 200px;
+    background-size: 100%;
+}
+
+.community {
+    background-image: image-url("community.png");
+    height: 200px;
+    background-size: 100%;
+}
+
+.buy-sell {
+    background-image: image-url("buy-sell.png");
+    height: 200px;
+    background-size: 100%;
+}

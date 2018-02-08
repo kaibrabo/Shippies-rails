@@ -18,25 +18,23 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+	color: #333;
+	background-color: #eee;
+}
+
 .user-info {
     margin-top: 5px;
     margin-right: 5px;
     display: inline-block;
 }
 
+div.navbar, a {
+    color: #eee;
+    background-color: #337ab7;
+    // min-height: 50px !important;
+}
+
 .nav {
     margin-top: 5px;
 }
-
-body {
-	color: azure;
-	background-color: #153156;
-}
-
-.jumbotron {
-	background-image: url(https://petapixel.com/assets/uploads/2013/04/memorial_day_620.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: bottom right;
-}
-
